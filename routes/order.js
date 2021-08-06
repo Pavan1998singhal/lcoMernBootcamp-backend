@@ -52,4 +52,4 @@ router.put(
   updateStatus
 );
 
-module.exports = order;
+module.exports = router;

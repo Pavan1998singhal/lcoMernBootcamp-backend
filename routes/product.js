@@ -31,7 +31,7 @@ router.get("/product/:productId", getProduct);
 router.get("/product/photo/:productId", photo);
 
 //delete route
-route.delete(
+router.delete(
   "/product/:productId/:userId",
   isSignedIn,
   isAuthenticated,
@@ -40,7 +40,7 @@ route.delete(
 );
 
 //update route
-route.put(
+router.put(
   "/product/:productId/:userId",
   isSignedIn,
   isAuthenticated,
